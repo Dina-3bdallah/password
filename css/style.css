@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-transform: capitalize;
+    font-family: "DM Serif Display", serif;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(98,5,63,1) 75%, rgba(105,0,69,1) 100%);
+}
+/* form style */
+.form{
+    background-color: #fff;
+    width: 340px;
+    height: 270px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    border-radius: 10px;
+    padding: 20px;
+}
+/* input label style */
+.form label{
+    color: rgba(98,5,63,1);
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+/* input style */
+.form input{
+    width:300px;
+    border: 2px solid rgba(105,0,69,1);
+    border-radius: 10px;
+    padding: 5px;
+}
+/* input focus style */
+.form input:focus{
+    border: none;
+    outline: none;
+    box-shadow: 5px 5px 5px 2px rgba(105, 0, 68, 0.651);
+}
+/*check button style*/
+.form .btn {
+    background-color: rgba(105,0,69,1);
+    color: #fff;
+}
+/*check button hover style*/
+
+.form .btn:hover{
+    color: rgba(105,0,69,1);
+    box-shadow: 5px 5px 5px 2px rgba(105, 0, 68, 0.651);
+    font-weight: bold;
+}
+/* message style */
+#result {
+    color: #fff;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 17px;
+}
